@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 46.68 81.69">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #63d1bb;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #231f20;
+      }
+    </style>
+  </defs>
+  <g id="miu">
+    <g id="Artboard-1">
+      <g id="editor-flag-triangle-notification-glyph">
+        <path class="cls-1" d="m7.78,3.89v38.9l38.9-19.45L7.78,3.89ZM0,81.69V0h3.8v81.69H0Z"/>
+      </g>
+    </g>
+  </g>
+  <rect class="cls-2" width="3.8" height="81.69"/>
+</svg>

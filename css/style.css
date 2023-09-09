@@ -14,7 +14,6 @@ body {
 
 .wrapper{
   margin: 0 auto;
-
   max-width: 1150px;
 
 }
@@ -112,7 +111,6 @@ body {
 
 }
 
-
 /* Navigation */
 
 .nav {
@@ -124,7 +122,6 @@ body {
   opacity: 60%;
 }
 
-
 .btn {
   fill: #d3d2d2;
   color: black;
@@ -133,7 +130,6 @@ body {
 
 
 }
-
 .btn:hover {
   fill: #63d1bb;
   color: #8d8d8d;
@@ -144,12 +140,16 @@ body {
 /*  Intro  */
 
 .intro{
-  display: flex;
-  justify-content: space-between;
-  height: 746px;
-  width: 100%;
+  height: 766px;
+  width: 1150px;
   background: url("img/hero-desktop.jpg") center no-repeat;
   background-size: cover;
+  position: relative;
+}
+
+.intro__top{
+  display: flex;
+  justify-content: space-between;
 }
 
 .intro__link{
@@ -176,4 +176,294 @@ body {
   display: inline-block;
   text-align:right;
   padding-right: 50px;
+}
+
+.intro__bottom {
+  display: inline-block;
+  width: 100%;
+  padding-left: 50px;
+  padding-right: 50px;
+  position: absolute;
+  bottom: 0;
+
+
+}
+
+.intro__text{
+  padding-top: 50px;
+  margin: auto;
+  width: 700px;
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 1.1;
+
+
+}
+
+.green--btn {
+  display: inline-flex;
+  font-size: 20px;
+  justify-content: space-between;
+  border: 0;
+  color: #fff;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  width: 50%;
+  text-decoration: none;
+  text-align: left;
+  height: 118px;
+  vertical-align:bottom;
+  text-align: left;
+  word-break:keep-all;
+  font-family: 'IBM Plex Sans Arabic', sans-serif;
+  font-weight: 700;
+
+}
+
+.green--btn:hover {
+  height: 140px;
+}
+
+.zhp {
+  fill: #35a999;
+  text-decoration: none;
+  opacity=30%;
+
+
+
+}
+
+.zhp:hover {
+  fill: #239f8e;
+}
+
+
+/*  Товар Недели  */
+
+.container__1 {
+  width: 100%;
+  height: 806px;
+  padding-left: 50px;;
+  background-color: #fff;
+  display: flex;
+  position: relative;
+}
+
+.top{
+  display: inline-block;
+  width: 175px;
+  height: 100%;
+  padding-top: 120px;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-transform: uppercase;
+  text-align: center;
+  word-break:keep-all;
+  color: #63d1bb;
+}
+
+.content{
+  margin-right: 50px;
+  padding-top: 80px;
+  width: 100%;
+  display: inline-block;
+  background: url("img/triple-set-desktop.png" ) right no-repeat;
+  background-size:auto;
+  position: relative;
+
+}
+
+
+.dscrpt{
+  font-weight: 500;
+  font-size: 16px;
+  width: 292px;
+  color: #444;
+}
+
+table{
+  padding-top:50px;
+  width: 292px;
+  color: #444;
+}
+
+th, td{
+  border-bottom: 1px solid #ddd;
+}
+
+.content__bottom{
+  position: relative;
+  height: 255px;
+  width: 292px;
+  text-align: center;
+  vertical-align: bottom;
+  padding-top: 113px;
+}
+
+.btn__buy{
+  display: block;
+  bottom: 0;
+  font-size: 18px;
+  text-align: center;
+  border: 2px solid #000;
+  color: #000;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  height: 52px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.btn__buy:hover{
+  color: #fff;
+  background-color: #000;
+}
+
+/*   О нас    */
+
+.container__2{
+  width: 100%;
+  height: 1210px;
+  background-color: #fff;
+  display: block;
+  position: relative;
+  padding-right: 50px;
+  padding-left: 50px;
+  margin: 0 0 ;
+}
+
+.about{
+  display: block;
+  padding-top: 50px;
+  padding-left: 175px;
+  padding-right: 175px;
+  width: 100%;
+}
+
+.about__dscrpt{
+  display: grid;
+  grid-template-columns: repeat(2, 3fr);
+  font-weight: bold;
+  column-width: 350px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 50px;
+  margin-top: 50px;
+
+}
+
+.review{
+
+  display: flex;
+  height: 480px;
+  padding-left: 175px;
+  padding-top: 50px;
+  padding-bottom: 120px;
+  background: url("img/review.png") left no-repeat;
+}
+
+.rvw__body{
+  display: block;
+  width: 700px;
+  text-decoration: none;
+}
+
+.rvw__nav{
+  width: 175px;
+  text-decoration: none;
+  position: relative;
+}
+
+.con__1{
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  width: 175px;
+  height: 50px;
+  justify-content: space-between;
+}
+
+.rvw__arrow{
+  display: inline;
+  bottom: 0;
+  margin: 0;
+  width: 50%;
+  height: 50px;
+  font-size: 50px;
+  text-align: center;
+  text-decoration: none;
+
+}
+
+.rvw__arrow:hover{
+  opacity: 50%;
+}
+
+
+/*  Contacts  */
+
+.container__3{
+  width: 100%;
+  height: 633px;
+  background-color: #fff;
+  position: relative;
+  padding-left: 50px;
+  display: flex;
+}
+
+
+.contakts{
+  width: 350px;
+  padding-top: 50px;
+}
+
+.map{
+  padding-top: 70px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.chin{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+  left: 0;
+  height: 143px;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
+.chin__cont{
+  margin: 0;
+  height: 100%;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+}
+
+.chin__center{
+  margin: 0;
+  display: flex;
+  padding-top: 10px;
+  width: 100%;
+  height: 100%;
+  place-content: center;
+}
+
+.chin__right{
+  width: 33%;
+  height: 100%;
+}
+
+.btnchin{
+
+}
+
+.btnchin:hover{
+  fill:#fff;
 }
